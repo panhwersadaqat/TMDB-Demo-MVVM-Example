@@ -10,5 +10,5 @@ import com.example.tmdbdemo.domain.repository.TvShowRepository
  */
 
 class UpdateTvShowUseCase(private val tvShowRepository: TvShowRepository) {
-    suspend fun updateTvShow():List<TvShow>? = tvShowRepository.updateTvShows()
+    suspend fun execute():List<TvShow>? = tvShowRepository.updateTvShows()
 }
