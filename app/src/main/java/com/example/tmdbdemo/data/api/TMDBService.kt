@@ -1,8 +1,8 @@
-package com.example.tmdbdemo.api
+package com.example.tmdbdemo.data.api
 
-import com.example.tmdbdemo.data.ArtistList
-import com.example.tmdbdemo.data.MovieList
-import com.example.tmdbdemo.data.TvShowList
+import com.example.tmdbdemo.data.model.artist.ArtistList
+import com.example.tmdbdemo.data.model.movies.MovieList
+import com.example.tmdbdemo.data.model.tvshow.TvShowList
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
