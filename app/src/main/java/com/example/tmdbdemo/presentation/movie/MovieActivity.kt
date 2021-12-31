@@ -35,7 +35,6 @@ class MovieActivity : AppCompatActivity() {
             initRecyclerView()
         })
 
-
     }
     private fun initRecyclerView() {
         binding.movieRecyclerView.layoutManager = LinearLayoutManager(this)
